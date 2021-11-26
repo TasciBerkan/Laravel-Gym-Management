@@ -17,4 +17,7 @@ class HomeController extends Controller
         echo "Id Number :", $id;
     }
 
+    public function aboutus(){
+        return view('home.about');
+    }
 }
